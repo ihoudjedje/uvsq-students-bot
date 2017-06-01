@@ -14,14 +14,19 @@
     <img src="https://img.shields.io/coverity/ondemand/streams/STREAM.svg">
   </a>
   <a href="https://badge.fury.io/js/electron-markdownify">
-    <img src="https://img.shields.io/pypi/dd/Django.svg"
-         alt="Gitter">
+    <img src="https://img.shields.io/pypi/dd/Django.svg">
+  </a>
+    <a>
+    <img src="https://img.shields.io/codacy/grade/e27821fb6289410b8f58338c7e0bc686.svg">
   </a>
   <a href="https://nodejs.org/en/">
       <img src="https://img.shields.io/node/v/gh-badges.svg">
   </a>
-  <a href="https://www.paypal.me/AmitMerchant">
+  <a href="">
     <img src="https://img.shields.io/npm/v/@cycle/core.svg">
+  </a>
+  <a href="">
+    <img src="https://img.shields.io/github/stars/badges/shields.svg?style=social&label=Star">
   </a>
 </p>
 <br>
