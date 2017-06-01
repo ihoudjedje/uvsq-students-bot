@@ -85,4 +85,4 @@ As mentioned before, the project has been built in two versions : API.ai version
 API.ai allows developers to integrate your app with the AI system with speech-to-text and natural language processing.
 Let’s get started by [sigining up](https://api.ai/).
 <img src="http://www.girliemac.com/assets/images/articles/2017/01/apiai-create-agent.png" width="700">
-![alt text](https://raw.githubusercontent.com/username/projectname/branch/path/to/img.png)
+![alt import configuration in API.ai](https://github.com/ilyes16K/ChatBot_nodeJS_TER_Projet/blob/master/Main_App%20(API.AI)/workspace/screenshots/apiai_import.PNG)
