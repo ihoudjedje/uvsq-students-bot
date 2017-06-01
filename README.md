@@ -1,7 +1,7 @@
 
 <h1 align="center">
   <br>
-  <img src="http://www.girliemac.com/assets/images/articles/2017/01/cover-facebook-apiai-bot.png" alt="IlyesBot" width="200">
+  <img src="http://www.girliemac.com/assets/images/articles/2017/01/cover-facebook-apiai-bot.png" alt="IlyesBot" width="900">
   <br>
   NodeJS ChatBot
   <br>
@@ -10,15 +10,14 @@
 <h4 align="center">A ChatBot designed to help new <a href="https://www.universite-paris-saclay.fr/fr/education/master/m2-gestion-de-donnees-dans-un-monde-numerique-data-management-in-a-digital-world#presentation-m2" target="_blank">DataScale's</a> students to explore and to know more about their course.</h4>
 
 <p align="center">
-  <a href="https://nodejs.org/en/">
-    <img src="https://opbeat.com/images/stacks/logo_nodejs_alt.svg" alt="NodeJS">
+  <a href="">
+    <img src="https://img.shields.io/coverity/ondemand/streams/STREAM.svg">
   </a>
   <a href="https://badge.fury.io/js/electron-markdownify">
     <img src="https://img.shields.io/pypi/dd/Django.svg"
          alt="Gitter">
   </a>
-  <a href="https://gitter.im/amitmerchant1990/electron-markdownify"><img src="https://badges.gitter.im/amitmerchant1990/electron-markdownify.svg"></a>
-  <a href="https://saythanks.io/to/amitmerchant1990">
+  <a href="https://nodejs.org/en/">
       <img src="https://img.shields.io/node/v/gh-badges.svg">
   </a>
   <a href="https://www.paypal.me/AmitMerchant">
