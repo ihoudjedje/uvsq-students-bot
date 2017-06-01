@@ -85,4 +85,4 @@ As mentioned before, the project has been built in two versions : API.ai version
 API.ai allows developers to integrate your app with the AI system with speech-to-text and natural language processing.
 Let’s get started by [sigining up](https://api.ai/).
 <img src="http://www.girliemac.com/assets/images/articles/2017/01/apiai-create-agent.png" width="700">
-<img src="https://img4.hostingpics.net/thumbs/mini_661459apiaiimport.png" />
+![alt text](https://raw.githubusercontent.com/username/projectname/branch/path/to/img.png)
