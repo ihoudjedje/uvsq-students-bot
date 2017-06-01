@@ -62,6 +62,7 @@ You need a Facebook Page to set up your chat bot. Create one from facebook.com/p
 
 Then create an app at developers.facebook.com/quickstarts.
 Give it a name and click the button, then fill out the required info.
+
 <img src="http://www.girliemac.com/assets/images/articles/2017/01/create-an-app.png" width="700">
 
 Once your app is created, follow the steps to configure or skip it to your Dashboard.
