@@ -50,9 +50,9 @@ After you clone this repo, go to its root directory and run `npm install` to ins
 Before configuring your Messenger app on Facebook Developer, let’s create a bare minimum webhook with Node.js to get started.
 ###### Setting Up a Temporary Webhook Endpoint with ngrok
 I choose ngrok to serves a localhost to a public URL because it is simple and easy to use. This URL will be used as a Messenger webhook endpoint during the development, so you don’t need to deploy to a server until the app is completed.
-After downloading and installing it, run it with a port number, let’s use 4100 (it should be the same port as our main app is running)
+After downloading and installing it, run it with a port number, let’s use 5000 (it should be the same port as our main app is running)
 ```
-$ ngrok http 4100
+$ ngrok http 5000
 ```
 When you start ngrok, it will display a public URL of your tunnel in the terminal. We will need the URL later when setting up the Facebook app. (In the screenshot, the URL is https://47ba4dd4.ngrok.io)
-<img src="https://drive.google.com/open?id=0B7hzSdAUtDKCMXJLVEh4MHBRTk0" alt="ngrok" width="700">
+<img src="http://www.girliemac.com/assets/images/articles/2017/01/ngrok.png" alt="ngrok" width="700">
