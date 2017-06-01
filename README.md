@@ -80,7 +80,7 @@ In the dialog, fill out the (1) Callback URL with your ngrok URL, (2) the random
 
 Click the Verify and Save. If you get a red icon with x at the Callback URL, it means the URL is not validated- so re-run ngrok and reset the webhook url. Otherwise, you are ready to go on.
 ## Running the App
-As mentioned before, the project has been built in two versions : API.ai version & ChatFuel version.
+The project has been built in two versions : API.ai version & ChatFuel version.
 ### 1st version : API.ai
 API.ai allows developers to integrate your app with the AI system with speech-to-text and natural language processing.
 Let’s get started by [sigining up](https://api.ai/).
@@ -104,3 +104,11 @@ In the same file `Main_App (API.AI)/workspace/server/service.js` set the access_
    access_token: ""
     },.....
 ```
+At this point, all what left, is to run the microservices one-by-one by typing...
+```
+node service.js
+```
+### 2nd version : ChatFuel
+Chatfuel is a bot builder for FB bots. It has a visual development environment, so you can click and add blocks of functionality like “Text Card” to send a text response and other blocks to send images etc..
+It's much easier to integrate with facebook bots since it integrats FB apps automatically.
+Let’s get started by [sigining up](https://api.ai/).
