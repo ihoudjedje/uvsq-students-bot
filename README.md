@@ -59,17 +59,22 @@ When you start ngrok, it will display a public URL of your tunnel in the termina
 #### Setting Up a Facebook App
 You need a Facebook Page to set up your chat bot. Create one from facebook.com/pages/create. Choose a category, and select a sub category from the dropdown and fill out the required filed. Then click Get Started.
 <img src="http://www.girliemac.com/assets/images/articles/2017/01/create-a-page.png" width="700">
-Then create an app at developers.facebook.com/quickstarts.
 
+Then create an app at developers.facebook.com/quickstarts.
 Give it a name and click the button, then fill out the required info:
 <img src="http://www.girliemac.com/assets/images/articles/2017/01/create-an-app.png" width="700">
+
 Once your app is created, follow the steps to configure or skip it to your Dashboard.
 <img src="http://www.girliemac.com/assets/images/articles/2017/01/FB-dashboard.png" width="700">
+
 Click Add Product from the left menu, then choose Messenger. Click Get Started.
 <img src="http://www.girliemac.com/assets/images/articles/2017/01/create-an-app-add-product.png" width="700">
+
 At the Token Generation, (1) choose the page you just created from the dropdown menu, and it will generate a token (2) that you will need to include in your node code.
 Then, at the Webhooks, (3) click the Setup Webhooks button:
 <img src="http://www.girliemac.com/assets/images/articles/2017/01/create-an-app-messenger.png" width="700">
+
 In the dialog, fill out the (1) Callback URL with your ngrok URL, (2) the random string for validation, then (3) check messages.
 <img src="http://www.girliemac.com/assets/images/articles/2017/01/create-an-app-messenger-webhook.png" width="700">
+
 Click the Verify and Save. If you get a red icon with x at the Callback URL, it means the URL is not validated- so re-run ngrok and reset the webhook url. Otherwise, you are ready to go on.
