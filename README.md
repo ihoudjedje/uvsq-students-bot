@@ -85,4 +85,21 @@ As mentioned before, the project has been built in two versions : API.ai version
 API.ai allows developers to integrate your app with the AI system with speech-to-text and natural language processing.
 Let’s get started by [sigining up](https://api.ai/).
 <img src="http://www.girliemac.com/assets/images/articles/2017/01/apiai-create-agent.png" width="700">
+
+After doing so, go to the tab "Export & Import" and hit "IMPORT FROM ZIP" button.
+download the zip configuration from [here](https://drive.google.com/open?id=0B7hzSdAUtDKCRjRtRHFkWVUwcHM).
+
 ![alt import configuration in API.ai](https://github.com/ilyes16K/ChatBot_nodeJS_TER_Projet/blob/master/Main_App%20(API.AI)/workspace/screenshots/apiai_import.PNG)
+Now, You need your API.ai API key and API secret to use the service with your bot. From the menu, click the “Config” icon to get your API key "Client access token" and copy it.
+<img src="http://www.girliemac.com/assets/images/articles/2017/01/apiai-apikey.png" width="700">
+Go to `Main_App (API.AI)/workspace/server/service.js` and set the "Client access token" key in the 5th line.
+```
+const apiaiApp = apiai('Client access token');
+```
+Now, let's set the token key that we saved from the facebook App earlier.
+In the same file `Main_App (API.AI)/workspace/server/service.js` set the access_token at the `function send_reply(message){..}`
+```
+....{
+   access_token: ""
+    },.....
+```
