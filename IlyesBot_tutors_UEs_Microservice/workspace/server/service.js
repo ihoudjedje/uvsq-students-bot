@@ -39,7 +39,6 @@ var list_profs_ues = [
 app.get('/service/:name_prof', (req, result) => { 
     
             request.get(`http://localhost:5020/service/${req.params.name_prof}`, function(err, res){
-            console.log("id_prof" + res.body);
             var result_prof_id = res.body;
             var result_ue_id; 
                 
@@ -47,8 +46,6 @@ app.get('/service/:name_prof', (req, result) => {
                 if (list_profs_ues[i]["id_prof"] == result_prof_id){    
                 result_ue_id = list_profs_ues[i]["id_ue"];
                 }}
-            console.log("id_ue" + result_ue_id);
-            console.log(typeof result_ue_id);
 
             request.get(`http://localhost:5030/service/${result_ue_id}`, function(err, res){
 

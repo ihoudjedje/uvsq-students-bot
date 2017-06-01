@@ -1,7 +1,7 @@
 'use strict';
 
 const express = require('express');
-const app = express();                      //typescript
+const app = express();                      
 
 var list_UEs = [
     {
