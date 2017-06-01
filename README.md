@@ -56,11 +56,3 @@ $ ngrok http 4100
 ```
 When you start ngrok, it will display a public URL of your tunnel in the terminal. We will need the URL later when setting up the Facebook app. (In the screenshot, the URL is https://47ba4dd4.ngrok.io)
 <img src="https://drive.google.com/open?id=0B7hzSdAUtDKCMXJLVEh4MHBRTk0" alt="ngrok" width="700">
-
-
-
-
-
-
-
-> A small piece of the chtaBot project, dedicated to new DataScale students to explore the training (UEs, professors, courses,...etc). Developed in two versions: AI.api version, and chatFuel version. The aim of the project was to try out the Microservices architecture and the chatBot feature. The code isn't complete yet...to be full pushed by June 1st!
