@@ -13,8 +13,15 @@
   <a href="">
     <img src="https://img.shields.io/coverity/ondemand/streams/STREAM.svg">
   </a>
-  <a href="https://badge.fury.io/js/electron-markdownify">
-    <img src="https://img.shields.io/pypi/dd/Django.svg">
+  <!-- Downloads -->
+  <a href="https://npmjs.org/package/choo">
+    <img src="https://img.shields.io/npm/dm/choo.svg?style=flat-square"
+      alt="Downloads" />
+  </a>
+  <!-- Standard -->
+  <a href="https://standardjs.com">
+    <img src="https://img.shields.io/badge/code%20style-standard-brightgreen.svg?style=flat-square"
+      alt="Standard" />
   </a>
     <a>
     <img src="https://img.shields.io/codacy/grade/e27821fb6289410b8f58338c7e0bc686.svg">
