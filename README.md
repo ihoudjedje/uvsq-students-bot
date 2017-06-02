@@ -134,7 +134,7 @@ Edit all the folowing blocs : `all_profs` `profs_plus_ues` `all_ues` `look_for_u
 
 NB: wait a couple seconds after resetting to have the changes automatically saved. (until the ✔️ appears)
 
-<img src="https://github.com/ilyes16K/ChatBot_nodeJS_TER_Projet/blob/master/Main_App%20(API.AI)/workspace/screenshots/InkedInkedblocs_webhook_chatfuel_LI.jpg" width="700">
+<img src="https://github.com/ilyes16K/ChatBot_nodeJS_TER_Projet/blob/master/Main_App%20(API.AI)/workspace/screenshots/InkedInkedInkedblocs_webhook_chatfuel_LI.jpg" width="700">
 
 ```
 ### IMPORTANT:
