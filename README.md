@@ -111,4 +111,4 @@ node service.js
 ### 2nd version : ChatFuel
 Chatfuel is a bot builder for FB bots. It has a visual development environment, so you can click and add blocks of functionality like “Text Card” to send a text response and other blocks to send images etc..
 It's much easier to integrate with facebook bots since it integrats FB apps automatically.
-Let’s get started by [sigining up](https://api.ai/).
+
