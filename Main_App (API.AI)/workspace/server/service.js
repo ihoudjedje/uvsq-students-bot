@@ -60,11 +60,18 @@ function sendMessage(event) {
         
         }else if(response.result.metadata.intentName == "Tout les Profs"){
         
-       // require('./intents/tutorsIntent').profs("all", function(cb){ 
-        request.get(`http://48330379.ngrok.io/enseignants`, function(err, res){  
-        console.log(res.body);
-        //send_reply(cb);  
-       
+       require('./intents/tutorsIntent').profs("all", function(cb){ 
+         send_reply(cb);
+/*        request.get(`http://48330379.ngrok.io/enseignants`, function(err, res){  
+        var list_prof_json = JSON.parse(res.body);
+        var list_prof = '';
+        for (var i = 0; i < list_prof_json.length; i++){
+      
+        list_prof += "\n- " + list_prof_json[i]["nom"] + " " + list_prof_json[i]["prenom"];
+      
+            
+        }
+        send_reply(list_prof);*/
         });
         
         }else{
@@ -91,7 +98,7 @@ function send_reply(message){
         request({
       url: 'https://graph.facebook.com/v2.6/me/messages',
       qs: {
-        access_token: "EAAGNVq4KwhEBAO7JGxuz7ZAl6QhjZAQZAMIWac7JTT3w6vbBafLhqebL0ZBZBZBjlJdTz4IASfvBmIpleZCWDTysKx309SWThRl6PiXdXagop74rGaZAkN5uMRfIZCCero1HlW99TC6NCYaqWK1qZBalqDG1XCOjSautPxejH2vSNT4wZDZD"
+        access_token: "EAAGWLz15Ux4BALh8I3b1oeaAIemoSf2ZCEdmaLepLWV7ZBBMRoZAuHZBt79nFRMTZBJpaHBWoxhDzQC7S2leGJQw97n0IhIpSNemn0nX5QUlBp6tZBh3uQmv1y8XY2dPiynzAZBs8bp51GGZBxI0m720VGoJZBxhrVHpQMrvT1lLeowZDZD"
       },
       method: 'POST',
       json: {
