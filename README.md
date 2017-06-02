@@ -36,7 +36,7 @@
 <br>
 
 ## Demo
-<img src="https://github.com/ilyes16K/ChatBot_nodeJS_TER_Projet/blob/master/Main_App%20(API.AI)/workspace/screenshots/ezgif.com-video-to-gif.gif" width="120">
+<img src="https://github.com/ilyes16K/ChatBot_nodeJS_TER_Projet/blob/master/Main_App%20(API.AI)/workspace/screenshots/ezgif.com-video-to-gif.gif" width="200">
 
 ## prerequisite
 You need to download and install : 
