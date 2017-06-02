@@ -7,7 +7,7 @@
   <br>
 </h1>
 
-<h4 align="center">A ChatBot designed to help new <a href="https://www.universite-paris-saclay.fr/fr/education/master/m2-gestion-de-donnees-dans-un-monde-numerique-data-management-in-a-digital-world#presentation-m2" target="_blank">DataScale's</a> students to explore and to know more about their course, designed in two versions : API.ai & ChatFuel</h4>
+<h4 align="center">A ChatBot designed to help new <a href="http://www.uvsq.fr/master-1-informatique-351265.kjsp" target="_blank">UVSQ's CS</a> students to explore and to know more about their course, designed in two versions : API.ai & ChatFuel</h4>
 
 <p align="center">
   <!-- Downloads -->
@@ -37,7 +37,9 @@
 
 ## Demo
 <p align="center">
+<h3>ChatFuel version</h3>
 <img src="https://github.com/ilyes16K/ChatBot_nodeJS_TER_Projet/blob/master/Main_App%20(API.AI)/workspace/screenshots/ezgif.com-video-to-gif.gif" width="300">
+<h3>API.ai version</h3>
 <img src="https://github.com/ilyes16K/ChatBot_nodeJS_TER_Projet/blob/master/Main_App%20(API.AI)/workspace/screenshots/ezgif.com-video-to-gif2.gif" width="300">
 </p>
 
