@@ -52,7 +52,7 @@ function sendMessage(event) {
         }else if(response.result.metadata.intentName == "Tous les modules"){
         
         var type = response.result.parameters.UEs_all;
-        require('./intents/uesIntent').get_all_ues(type, function(cb){ 
+        require('./intents/uesIntent').get_all_ues_i(type, function(cb){ 
                      
         send_reply(cb);  
        
@@ -60,18 +60,9 @@ function sendMessage(event) {
         
         }else if(response.result.metadata.intentName == "Tout les Profs"){
         
-       require('./intents/tutorsIntent').profs("all", function(cb){ 
+         require('./intents/tutorsIntent').profs_msh("all", function(cb){ 
+           
          send_reply(cb);
-/*        request.get(`http://48330379.ngrok.io/enseignants`, function(err, res){  
-        var list_prof_json = JSON.parse(res.body);
-        var list_prof = '';
-        for (var i = 0; i < list_prof_json.length; i++){
-      
-        list_prof += "\n- " + list_prof_json[i]["nom"] + " " + list_prof_json[i]["prenom"];
-      
-            
-        }
-        send_reply(list_prof);*/
         });
         
         }else{
@@ -88,10 +79,6 @@ function sendMessage(event) {
   
 }
 
-//-----------------------------------------listening_channel-----------------------------------------------------------
-const server = app.listen(process.env.PORT || 5000, () => {
-  console.log('Express server listening on port %d in %s mode', server.address().port, app.settings.env);
-});
 
 //-----------------------------------------reply_message-----------------------------------------------------------
 function send_reply(message){
@@ -115,3 +102,9 @@ function send_reply(message){
       }
     });
 }
+
+
+//-----------------------------------------listening_channel-----------------------------------------------------------
+const server = app.listen(process.env.PORT || 5000, () => {
+  console.log('Express server listening on port %d in %s mode', server.address().port, app.settings.env);
+});
