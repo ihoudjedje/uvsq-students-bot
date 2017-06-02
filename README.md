@@ -7,7 +7,7 @@
   <br>
 </h1>
 
-<h4 align="center">A ChatBot designed to help new <a href="https://www.universite-paris-saclay.fr/fr/education/master/m2-gestion-de-donnees-dans-un-monde-numerique-data-management-in-a-digital-world#presentation-m2" target="_blank">DataScale's</a> students to explore and to know more about their course.</h4>
+<h4 align="center">A ChatBot designed to help new <a href="https://www.universite-paris-saclay.fr/fr/education/master/m2-gestion-de-donnees-dans-un-monde-numerique-data-management-in-a-digital-world#presentation-m2" target="_blank">DataScale's</a> students to explore and to know more about their course, designed in two versions : API.ai & ChatFuel</h4>
 
 <p align="center">
   <!-- Downloads -->
