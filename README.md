@@ -3,7 +3,7 @@
   <br>
   <img src="http://www.girliemac.com/assets/images/articles/2017/01/cover-facebook-apiai-bot.png" alt="IlyesBot" width="700">
   <br>
-  NodeJS ChatBot
+  NodeJS ChatBot in a Microservices Architecture
   <br>
 </h1>
 
