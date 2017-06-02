@@ -36,12 +36,16 @@
 <br>
 
 ## Demo
-<p align="center">
+<div align="center">
+<p>
 <h3>ChatFuel version</h3>
 <img src="https://github.com/ilyes16K/ChatBot_nodeJS_TER_Projet/blob/master/Main_App%20(API.AI)/workspace/screenshots/ezgif.com-video-to-gif.gif" width="300">
+</p>
+<p>
 <h3>API.ai version</h3>
 <img src="https://github.com/ilyes16K/ChatBot_nodeJS_TER_Projet/blob/master/Main_App%20(API.AI)/workspace/screenshots/ezgif.com-video-to-gif2.gif" width="300">
 </p>
+</div>
 
 ## prerequisite
 You need to download and install : 
