@@ -120,7 +120,7 @@ app.get('/return_student_id/:student_name', (req, res, next) => {
 
 var student_id_found ;
 for (var i = 0; i < list_Students.length; i++){
-  if (list_Students[i]["family_name"].toLowerCase() === req.params.student_name.toLowerCase()){
+  if (list_Students[i]["family_name"].toLowerCase() === req.params.student_name.toLowerCase() || list_Students[i]["first_name"].toLowerCase() === req.params.student_name.toLowerCase()){
       
       student_id_found = list_Students[i]["id_student"];
       

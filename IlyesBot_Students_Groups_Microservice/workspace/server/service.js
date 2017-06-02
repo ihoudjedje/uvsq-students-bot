@@ -97,7 +97,7 @@ app.get('/group/:student_name', (req, result) => {
             request.get(`http://localhost:5050/return_student_id/${req.params.student_name}`, function(err, result1){
             if(err || result1.body == ""){
 
-                 return result.json("Dèsolé!, je t'ai pas trouvé dans aucune groupe!!, merci de contacter la scolarité");
+                 return result.json("Dèsolé!, je vous ai pas trouvé dans aucune groupe!!, merci de contacter la scolarité");
                 
                 }else{    
             var result_student_id = result1.body;
@@ -108,11 +108,10 @@ app.get('/group/:student_name', (req, result) => {
                 result_group_id = list_students_groups[i]["id_group"];
                 }}
               
-            var list_of_the_students; var count = 0;
+            var list_of_the_students = [];
             for(var i = 0; i < list_students_groups.length; i++){
                 if (list_students_groups[i]["id_group"] == result_group_id){
-                    list_of_the_students += "&student["+count+"]=["+ list_students_groups[i]["id_student"]+"]";
-                    count++;
+                    list_of_the_students.push(list_students_groups[i]["id_student"]);
                 }
             }
                 }

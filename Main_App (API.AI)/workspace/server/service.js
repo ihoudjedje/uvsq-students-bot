@@ -60,10 +60,10 @@ function sendMessage(event) {
         
         }else if(response.result.metadata.intentName == "Tout les Profs"){
         
-       // var type = response.result.parameters.Profs_all;
-        require('./intents/tutorsIntent').profs("all", function(cb){ 
-                     
-        send_reply(cb);  
+       // require('./intents/tutorsIntent').profs("all", function(cb){ 
+        request.get(`http://48330379.ngrok.io/enseignants`, function(err, res){  
+        console.log(res.body);
+        //send_reply(cb);  
        
         });
         
@@ -82,7 +82,7 @@ function sendMessage(event) {
 }
 
 //-----------------------------------------listening_channel-----------------------------------------------------------
-const server = app.listen(process.env.PORT || 4100, () => {
+const server = app.listen(process.env.PORT || 5000, () => {
   console.log('Express server listening on port %d in %s mode', server.address().port, app.settings.env);
 });
 
@@ -91,7 +91,7 @@ function send_reply(message){
         request({
       url: 'https://graph.facebook.com/v2.6/me/messages',
       qs: {
-        access_token: "EAAGNVq4KwhEBACqrZBeFen0zdrRb1vutG5B3LNjzDmZCt7Fck334uyWO0Pp1pqXX0qcwd8na8XQd0cZCpOAzUuQmywSvSxZBOzqrj0V895bsdDsv4Ee8EEvdnc0iVhKbyIfPMPtFtwvGfg0kzUijOzSssf7OCRdrXOyHnJVLCgZDZD"
+        access_token: "EAAGNVq4KwhEBAO7JGxuz7ZAl6QhjZAQZAMIWac7JTT3w6vbBafLhqebL0ZBZBZBjlJdTz4IASfvBmIpleZCWDTysKx309SWThRl6PiXdXagop74rGaZAkN5uMRfIZCCero1HlW99TC6NCYaqWK1qZBalqDG1XCOjSautPxejH2vSNT4wZDZD"
       },
       method: 'POST',
       json: {
