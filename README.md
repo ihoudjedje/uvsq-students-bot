@@ -39,7 +39,7 @@
 <div align="center" >
 
 
-<img src="https://github.com/ilyes16K/ChatBot_nodeJS_TER_Projet/blob/master/Main_App%20(API.AI)/workspace/screenshots/https://github.com/ilyes16K/ChatBot_nodeJS_TER_Projet/blob/master/Main_App%20(API.AI)/workspace/screenshots/bloggif_59353fe79e3c6.gif" width="280">
+<img src="https://github.com/ilyes16K/ChatBot_nodeJS_TER_Projet/blob/master/Main_App%20(API.AI)/workspace/screenshots/bloggif_59353fe79e3c6.gif" width="280">
 
 <img src="https://github.com/ilyes16K/ChatBot_nodeJS_TER_Projet/blob/master/Main_App%20(API.AI)/workspace/screenshots/ezgif.com-video-to-gif2.gif" width="280">
 
