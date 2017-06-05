@@ -71,7 +71,7 @@ app.get('/service/:type', (req, res, next) => {
         ues_list += "\n- " + list_UEs[i]["name"] + "(" + list_UEs[i]["code"] + ")";
         }
 
-        return res.json(ues_list);                
+        return res.json(ues_list);
   
         }else if(req.params.type.length > 1){
             var ue_info = "";
