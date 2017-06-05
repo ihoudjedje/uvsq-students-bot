@@ -109,7 +109,7 @@ In the same file `Main_App (API.AI)/workspace/server/service.js` set the access_
    access_token: ""
     },.....
 ```
-At this point, all what left, is to run the microservices one-by-one by typing...
+At this point, all what's left, is to run the microservices one-by-one by typing...
 ```
 node service.js
 ```
@@ -132,6 +132,11 @@ Edit all the folowing blocs : `all_profs` `profs_plus_ues` `all_ues` `look_for_u
 NB: wait a couple seconds after resetting to have the changes automatically saved. (until the ✔️ in the right corner appears)
 
 <img src="https://github.com/ilyes16K/ChatBot_nodeJS_TER_Projet/blob/master/Main_App%20(API.AI)/workspace/screenshots/InkedInkedInkedblocs_webhook_chatfuel_LI.jpg" width="700">
+
+At the end, let's run the microservices...
+```
+node service.js
+```
 
 ### IMPORTANT:
 - You need to have a facebook page associated with each version, so you got to have 2 in sum.
