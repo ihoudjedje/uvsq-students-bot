@@ -51,8 +51,6 @@ You need to download and install :
 * [ngrok](https://ngrok.com/download)
 ---
 ## Development Setup
-After you clone this repo, go to its root directory and run `npm install` to install all its dependencies.
-
 ### 1. Developing a Facebook Messenger App
 Before configuring your Messenger app on Facebook Developer, let’s create a bare minimum webhook with Node.js to get started.
 #### Setting Up a Temporary Webhook Endpoint with ngrok
@@ -134,8 +132,8 @@ NB: wait a couple seconds after resetting to have the changes automatically save
 
 <img src="https://github.com/ilyes16K/ChatBot_nodeJS_TER_Projet/blob/master/Main_App%20(API.AI)/workspace/screenshots/InkedInkedInkedblocs_webhook_chatfuel_LI.jpg" width="700">
 
-```
 ### IMPORTANT:
 - You need to have a facebook page associated with each version, so you got to have 2 in sum.
+- After you clone this repo, go to each directry's root and run `npm install` to install all its dependencies.
 - Run all the microservices's servers listed above for both versions, except **Main_App (API.AI)** and **Main_App (ChatFuel)**, run one of them according to the version you're testing.
-```
+
