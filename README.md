@@ -144,3 +144,4 @@ NB: wait a couple seconds after resetting to have the changes automatically save
 - Push to the branch: git push origin my-new-feature
 - Submit a pull request :D
 ## License
+[MIT](https://tldrlegal.com/license/mit-license)
