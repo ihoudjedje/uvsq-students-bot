@@ -137,9 +137,10 @@ NB: wait a couple seconds after resetting to have the changes automatically save
 - After you clone this repo, go to each directry's root and run `npm install` to install all its dependencies.
 - Run all the microservices's servers listed above for both versions, except **Main_App (API.AI)** and **Main_App (ChatFuel)**, run one of them according to the version you're testing.
 
-### Contributing
+## Contributing
 - Fork it!
 - Create your feature branch: git checkout -b my-new-feature
 - Commit your changes: git commit -am 'Add some feature'
 - Push to the branch: git push origin my-new-feature
 - Submit a pull request :D
+## License
