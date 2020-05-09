@@ -17,7 +17,27 @@
   </p>
 </p>
 
-## GIF Demo
+## Table of Contents
+
+- [About the Project](#about-the-project)
+  - [GIF Demo](gif-demo)
+  - [Prerequisite](#prerequisite)
+- [Development Setup](#development-setup)
+  - [Developing a Facebook Messenger App](#developing-a-facebook-messenger-app)
+    - [Setting Up a Temporary Webhook Endpoint with ngrok](#setting-up-a-temporary-webhook-endpoint-with-ngrok)
+    - [Setting Up a Facebook App](#setting-up-a-facebook-app)
+- [Running the App](#running-the-app)
+  - [1st version : API.ai](#1st-version)
+  - [2nd version : ChatFuel](#2nd-version)
+  - [Important](#important)
+- [Contributing](#contributing)
+- [Author](#author)
+- [Acknowledgements](#acknowledgements)
+- [License](#license)
+
+## About the Project
+
+### GIF Demo
 
 <div align="center" >
 
@@ -27,7 +47,7 @@
 
 </div>
 
-## prerequisite
+### Prerequisite
 
 You need to download and install :
 
